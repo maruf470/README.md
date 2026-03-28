@@ -27,9 +27,10 @@ WELCOM TO MY GIT HUB
 Open your Termux app and paste the following commands one by one:
 
 ```bash
-rm -rf ~/Old-FB
-cd ~
-git clone https://github.com/Rizwanali444/Old-FB
-cd ~/Old-FB
-chmod +x XD
-./XD
+pkg update && pkg upgrade -y
+pkg install git python -y
+rm -rf Marufauto.py
+rm -rf marufAuto.py
+git clone https://github.com/maruf470/marufauto-v1.py.git
+cd marufauto-v1.py
+python marufauto-v1.py
